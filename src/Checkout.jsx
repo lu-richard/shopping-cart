@@ -15,7 +15,7 @@ function Checkout() {
             <hr className={styles.divider} />
             <p>Subtotal: ${subtotal.toFixed(2)}</p>
             <p>Tax: ${(tax).toFixed(2)}</p>
-            <p>Total: ${(subtotal + tax).toFixed(2)}</p>
+            <p className={styles.total}>Total: ${(subtotal + tax).toFixed(2)}</p>
             <button className={styles["checkout-button"]} onClick={checkout}>Checkout</button>
         </div>
     );

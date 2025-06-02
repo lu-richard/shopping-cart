@@ -5,6 +5,7 @@
     align-items: center;
     margin-top: 3rem;
     margin-bottom: 5rem;
+    font-size: 1.1rem;
 }
 
 .divider {
@@ -20,6 +21,19 @@
     border-radius: 1rem;
     padding: 0.75rem 5rem;
     filter: drop-shadow(0px 4px 4px rgba(212, 170, 170, 0.2));
+    font-family: inherit;
     font-size: 1.2rem;
     margin-top: 2rem;
+}
+
+.checkout-button:hover {
+    background-color: #6bc266;
+}
+
+.checkout-button:active {
+    background-color: #61af5b;
+}
+
+.total {
+    font-size: 1.3rem;
 }
